@@ -19,10 +19,7 @@ export default tslint.config(
     },
   },
   {
-    ignores: [
-      '**/node_modules',
-      '**/dist',
-    ],
+    ignores: ['**/node_modules', '**/dist'],
   },
   {
     files: ['**/*.{ts,tsx}'],
@@ -56,11 +53,14 @@ export default tslint.config(
           argsIgnorePattern: '^_',
         },
       ],
-      "jsx-a11y/label-has-associated-control": ["off", {
-        "required": {
-          "some": ["nesting", "id"]
-        }
-      }],
+      'jsx-a11y/label-has-associated-control': [
+        'off',
+        {
+          required: {
+            some: ['nesting', 'id'],
+          },
+        },
+      ],
     },
     settings: {
       react: {
@@ -96,5 +96,5 @@ export default tslint.config(
       ],
     },
   },
-  eslintConfigPrettier,
+  eslintConfigPrettier
 );

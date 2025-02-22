@@ -20,12 +20,12 @@ export default defineConfig({
         'lib-zod': /node_modules[\\/]zod/,
         'lib-zustand': /node_modules[\\/]zustand/,
         'lib-material': /node_modules[\\/]@mui/,
-      }
-    }
+      },
+    },
   },
   resolve: {
     alias: {
-      src: path.resolve(__dirname, './src')
-    }
-  }
+      src: path.resolve(__dirname, './src'),
+    },
+  },
 });
