@@ -1,0 +1,2 @@
+/api/youtrack/* https://youtrack.infra.gbooking.ru/api/:splat 200
+/api/toggl/* https://api.track.toggl.com/api/v9/:splat 200
